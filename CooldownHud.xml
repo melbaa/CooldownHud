@@ -3,7 +3,7 @@ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
 	<Script file="CooldownHud.lua"/>
 	<Frame name="CooldownHud_ButtonTemplate" hidden="true" virtual="true">
 		<Size>
-			<AbsDimension x="32" y="32"/>
+			<AbsDimension x="64" y="64"/>
 		</Size>
 		<Layers>
 			<Layer level="BACKGROUND">

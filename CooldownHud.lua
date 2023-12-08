@@ -253,6 +253,12 @@ local function CooldownHud_ConfigInit()
 		end
 	end
 	CooldownHud_SetLocks();
+
+    for i = 1, 12 do
+        local btn = getglobal("CooldownHud_Button"..i)
+        local cd = getglobal("CooldownHud_Button"..i.."Cooldown")
+        cd:SetScale(btn:GetHeight()/32)
+    end
 end
 
 
